@@ -26,6 +26,10 @@ class TestCIProjectTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testFirst() {
+        assert(true, "failed")
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
